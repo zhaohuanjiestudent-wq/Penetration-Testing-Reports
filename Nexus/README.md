@@ -16,7 +16,7 @@
 → Git模板功能执行build.py → SSH公钥写入宿主机
 → 容器逃逸 → root权限
 ```
-
+  
 ## 🎯 核心漏洞
 
 | # | 漏洞类型 | 分类 | 利用方式 |
@@ -40,10 +40,11 @@ Nmap, ffuf, Firefox, Burp Suite, nc (Netcat), Git, SSH
 ## 📁 文件结构
 
 ```
-nexus/
-├── README.md                 ← 本文件
-├── Nexus渗透测试报告.docx     ← 完整报告
-└── evidence/                 ← 证据截图
+nexus/  
+├── README.md ← 本文件
+├── build.py ← 容器逃逸 PoC 脚本（Git模板功能利用）
+├── Nexus渗透测试报告.pdf ← 完整报告
+└── evidence/ ← 证据截图
 ```
 
 ## 📌 声明
